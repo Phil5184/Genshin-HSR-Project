@@ -1,0 +1,17 @@
+Name, Type, Attack stat, weapon
+
+Ayaka, Cryo, 342, Sword -> entry in the list
+Xiao, Anemo, 349, Polearm -> entry in the list
+
+character = -> constructor
+
+character array = [Ayaka, Xiao]
+
+node
+Search: find all cryo characters -> search all arrays for index 1 that equals cryo
+
+constructor: 
+
+list of constructors of characters , later on change to hash map
+
+Steps of git: 
