@@ -14,4 +14,15 @@ constructor:
 
 list of constructors of characters , later on change to hash map
 
+
+**VERY IMPORTANT**
 Steps of git: 
+- change directory to genshin project
+- git checkout main (for latest version)
+- git pull origin main (to load latest version)
+- git checkout -b [insert-name] 
+- make your edits
+- SAVE YOUR EDITS
+- git add --all (once finished)
+- git commit -m "[insert message]"
+- git push origin [branch name]
