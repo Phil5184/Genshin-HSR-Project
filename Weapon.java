@@ -1,4 +1,5 @@
 public class Weapon {
+
     public String weaponName;
     public String type;
     public int attack;
@@ -9,5 +10,6 @@ public class Weapon {
         this.type = type;
         this.attack = attack;
         this.substat = substat;
+
     }
 }
