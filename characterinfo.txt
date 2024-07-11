@@ -1,6 +1,8 @@
 Ayaka Cryo 342 Sword
 Xiao Anemo 349 Polearm
-
-
-/* if type != cryo, anemo, pyro, geo, hydro, electro, dendro -> fail
-if weapontype != sword, polearmm, claymore, catalyst, bow -> fail
+Eula Cryo 342 Claymore
+Venti Anemo 263 Bow
+Zhongli Geo 251 Polearm
+Raiden-Shogun Electro 337 Polearm
+Nahida Dendro 299 Catalyst
+Furina Hydro 244 Sword
