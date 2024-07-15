@@ -1,8 +1,8 @@
 Ayaka Cryo 342 Sword dull-blade
-Xiao Anemo 349 Polearm Jade-Spear
-Eula Cryo 342 Claymore
-Venti Anemo 263 Bow
-Zhongli Geo 251 Polearm
-Raiden-Shogun Electro 337 Polearm
-Nahida Dendro 299 Catalyst
-Furina Hydro 244 Sword
+Xiao Anemo 349 Polearm primordial-jade-winged-spear
+Eula Cryo 342 Claymore song-of-broken-pines
+Venti Anemo 263 Bow skyward-harp
+Zhongli Geo 251 Polearm black-tassel
+Raiden-Shogun Electro 337 Polearm engulfing-lightning
+Nahida Dendro 299 Catalyst a-thousand-floating-dreams
+Furina Hydro 244 Sword splendor-of-tranquil-waters
