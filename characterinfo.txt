@@ -1,5 +1,5 @@
-Ayaka Cryo 342 Sword
-Xiao Anemo 349 Polearm
+Ayaka Cryo 342 Sword dull-blade
+Xiao Anemo 349 Polearm Jade-Spear
 Eula Cryo 342 Claymore
 Venti Anemo 263 Bow
 Zhongli Geo 251 Polearm

@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Scanner;
-
+// DO I SCRAP THISSSS????? MAYBE I KEEP
 public class scanner {
     Arraylist<Character> character_database = new Arraylist<>();  // make character constructor later
     Arraylist<Weapon> weapon_database = new Arraylist<>();
-    public int scan(String filename, String filetype) {   //do i need to pass the arraylist as a method argument?
+    public static int scan(String filename, String filetype) {   //do i need to pass the arraylist as a method argument? MAYBE I DO NEED TO ADD THE CHARACTERSYSTEM AS A PARAMETER?????
         if (filetype == 'character') {
             try {
                 File f = new File(filename);
@@ -25,10 +25,13 @@ public class scanner {
                     if (scan[3] != Sword || scan[3] != Polearm || scan[3] != Bow || scan[3] != Claymore || scan[3] != Catalyst) {
                         return -1;
                     }
-                    for (String s: scan) {
-                        //make new constructor and form it here, then add it to arraylist database
+                    
+                    //make new constructor and form it here, then add it to arraylist database
+                    //Character c1 = new Character(scan[0], scan[1], scan[2], scan[3], scan[4]);
+
+
                         
-                    }
+                    
                 }
                 sc.close();
             }
