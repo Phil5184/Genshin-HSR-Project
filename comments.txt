@@ -27,10 +27,8 @@ Steps of git:
 - git commit -m "[insert message]"
 - git push origin [branch name]
 
-
-interface weapon{ 
-
-}
+/ if you are somehow on some diverged branch and you want to get back to the remote main, just git reset --hard origin/main
+and / or use this website: https://jvns.ca/blog/2024/02/01/dealing-with-diverged-git-branches/
 
 projects i have referred to while doing this:      
 cse11 pa2
