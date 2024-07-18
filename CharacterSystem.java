@@ -12,6 +12,7 @@ public class CharacterSystem {
 
 /*
 add method
+void boolean add(String name, String element, int attack, String weapontype, Weapon weapon)
 
 remove method
 
