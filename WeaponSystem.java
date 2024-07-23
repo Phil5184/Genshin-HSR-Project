@@ -1,10 +1,10 @@
 import java.util.ArrayList;
 
 
-public WeaponSystem {
+public class WeaponSystem {
     public Arraylist<Weapon> weaponmap;
 
-    public WeaponSystem {
+    public WeaponSystem() {
         this.weaponmap = new Arraylist<Weapon>();
     }
 }

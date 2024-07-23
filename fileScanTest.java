@@ -18,3 +18,17 @@ class [name of file] {
 }
 */
 
+/*
+Tests Cases
+- check duplicates
+- check filescan
+- check for valid elements
+- check for valid weapontypes
+- removes the correct character
+- search method (name)
+- filter by element
+- filter by weapontype
+- correct ordered list by base attack (char/weap)
+  o filter by certain amount of attack (char/weap)
+ */
+
