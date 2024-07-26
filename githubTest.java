@@ -8,4 +8,8 @@ this is my 3rd edit
 
 //"testing to see if the git push merges smartly without messing crap up"
 
+
+//"testing to see if git pull and push" This is my changes -Phil
+
 //"testing to see if git pull dumb" -hp
+
