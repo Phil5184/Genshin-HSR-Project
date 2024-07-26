@@ -26,7 +26,7 @@ public class CharacterSystem {
         if (weapontype != "Sword" || weapontype != "Polearm" || weapontype != "Bow" || weapontype != "Claymore" || weapontype != "Catalyst") {
             return false;
         }
-        if (this.charactermap.search(name)) {
+        if (this.search(name)) {
             return false;
         }
         Character toAdd = new Character(name, element, attack, weapontype, weapon);
@@ -43,13 +43,45 @@ public class CharacterSystem {
         }
         return false;
     }
+    public boolean remove(String name) {
+        if (this.search(name)) { //if true, character is in the list so remove them
+            int idx = 0;
+            for (Character c: this.charactermap) {
+                if (c.name == name) { //if the name equals, break out of the for loop and do the remove
+                    break;
+                }
+                idx += 1;  //if name not found yet, just move on to the next index
+            }
+            this.charactermap.remove(idx);
+            System.out.println("Your character has been removed");
+            return true;
+        }
+        System.out.println("Your character is not in the list");
+        return false;  //if false, then return false because character is not in the list
+
+    }
+
+    //How to deal with multiple elements (should be inputted in the form "element element element") like 'anemo cryo electro'
+    public Arraylist<Character> elementFilter(String element) {
+        Arraylist<Character> toReturn = new Arraylist<>();
+        String[] splitted = element.split(" ");  //split the argument into the individual elements
+        for (String s: splitted) {   //for each element, search the list for characters of that element
+            for (Character c: this.charactermap) { 
+                if (c.element == s) {
+                    toReturn.add(c);
+                }
+            }
+        }
+        return toReturn;
+    }
 }
 
 
-/*
+/*  
 remove method
+//later, should i add like remove by element or remove by weapon? < address this later
 
-
+//add to this method to work with multiple elements
 find by element
 
 find by weapon
