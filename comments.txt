@@ -30,11 +30,44 @@ Steps of git:
 / if you are somehow on some diverged branch and you want to get back to the remote main, just git reset --hard origin/main
 and / or use this website: https://jvns.ca/blog/2024/02/01/dealing-with-diverged-git-branches/
 
+
+Tests Cases
+- check duplicates
+- check filescan
+- check for valid elements
+- check for valid weapontypes
+- removes the correct character
+- search method (name)
+- filter by element
+- filter by weapontype
+- correct ordered list by base attack (char/weap)
+  o filter by certain amount of attack (char/weap)
+
+
 projects i have referred to while doing this:      
 cse11 pa2
 cse12 pa6
 cse12 pa4
 cse12 pa8
 cse11 pa3 (hugh)
-cse11 pa4 (hugh)
+cse11 pa4 (hugh/testMethods)
 cse12 pa1 (hugh)
+
+
+//Tester Structure
+import tester.*; 
+
+class [name of file] {
+
+    [type] [name of test] = this.[method name]() //expected value
+
+    OR
+
+    //Tests
+    void [method name](Tester t) {
+        t.checkExpect(this.vc1.isCommentByAuthor(this.u1), true);
+        t.checkExpect(this.vc1.isCommentByAuthor(u2), false);
+        [...tests]
+    }
+}
+
