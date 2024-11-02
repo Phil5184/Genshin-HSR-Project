@@ -1,14 +1,44 @@
-<!Doctype html>
-<html>
-<h1> Welcome to our Genshin/Honkai Project Organization System! </h1>
-Please continue with the link below to access the character system<br>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin/Honkai System</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="myscripts.js"></script>
+</head>
+    <body>
+        <div id ='sidebar'>
+            <button onclick="side_barClose()" id = 'closeButton'>&times</button>
+            <a id ='home' href="./index.html">Home</a>
+            <a id ='about' href="./About Us.html">About Us</a>
+            <a href="./Genshin.html">Genshin</a>
+            <a href="./Honkai.html">Honkai</a>
+        </div>
 
-<a href = "./Genshin.html" target = "_blank">
-  <img src = "./Image.jpeg" height = "281" width = "500">Genshin Impact Organization System</img>
-</a><br>
-<a href = "./Honkai.html" target = "_blank">
-  <img src = "./Image 1.jpeg" height = "500" width = "500">Honkai: Star Rail Organization System</img>
-</a><br>
-  
+        <div class="header">
+            <button id = 'openButton' onclick = 'side_barOpen()'>&#9776</button>
+            <h1> Welcome to our Genshin/Honkai Project Organization System! </h1>
+        </div>
+
+        <div class="Home">
+            <h2>Please continue with the links below to access the character system</h2>
+
+            <a href = "./Genshin.html" target = "_blank">
+                <figure>
+                    <img id ='images' src = "./Image.jpeg" height = "140" width = "250"></img>
+                    <figcaption>Genshin Impact Organization System</figcaption>
+                </figure>
+                
+            </a><br>
+            <a href = "./Honkai.html" target = "_blank">
+                <figure>
+                    <img id = 'images' src = "./Image 1.jpeg" height = "250" width = "250"></img>
+                    <figcaption>Honkai Star Rail Organization System</figcaption>
+                </figure>
+            </a><br>
+        </div>
+  </body>
 </html>
 
