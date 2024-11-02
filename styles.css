@@ -1,0 +1,66 @@
+.header {
+    background-color: lightskyblue;
+    height: 15%;
+    padding: 25px;
+}
+
+.Home {
+    padding: 25px;
+}
+
+a,h2 {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#images {
+    padding: 0;
+}
+
+#sidebar {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: lightgray;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 35px;
+    width: 0;
+    
+}
+
+#closeButton {
+    width: 75%;
+    margin-left: 100px;
+    margin-top: 0px;
+    padding: 10px;
+    font-size: 30px;
+    transition: 0.3s;
+    background-color: lightgray;
+    border: none;
+    color: black;
+}
+#openButton {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 40px;
+    background-color: lightskyblue;
+    border: none;
+}
+
+#sidebar a {
+    padding: 10px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+
+.about {
+    width: 60%;
+}

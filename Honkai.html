@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<html>
-  <body>
-    <h2> Honkai Organizational System</h2>
-    <p> This is a program to help you navigate your way through the characters and weapons available in Honkai: Star Rail. <br>
-      It can help you organize your characters and filter them by characteristics and stats that you specify. <br>
-    </p>
-  </body>
-  
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="myscripts.js"></script>
+</head>
+<body>
+    <div id ='sidebar'>
+        <button onclick="side_barClose()" id = 'closeButton'>&times</button>
+        <a id ='home' href="./index.html">Home</a>
+        <a id ='about' href="./About Us.html">About Us</a>
+        <a href="./Genshin.html">Genshin</a>
+        <a href="./Honkai.html">Honkai</a>
+    </div>
+    <div class = 'header'>
+        <button id = 'openButton' onclick = 'side_barOpen()'>&#9776</button>
+        <h1> Honkai Star Rail Organization System</h1> 
+    </div>
+    <div class ='Home'>
+        <p>This is a program to help you navigate your way through the characters and weapons available in Honkai Star Rail. <br>
+        It can help you organize your characters and filter them by characteristics and stats that you specify. <br>
+        </p>
+    </div>
+    
+</body>
 </html>
